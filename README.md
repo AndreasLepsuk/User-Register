@@ -55,3 +55,14 @@ Jest documentation:
    * Lisa coverage info
    * Lisa testide jooksuaja info
    * Võrdle jooksumisaega (Ülesanne 1 vs Ülesanne 2)
+
+## Ülesanne 1: API testid tuelmused
+* Test Suites: 5/5
+* Tests: 46/46
+* Time: 24.108s
+
+## Ülesanne 2: Mocked API testid
+* Test Suites: 1/1
+* Tests: 12/12
+* Time: 1.349s
+* Ül 1 ja Ül 2 jooksuajad olid erinevad (20+ sek), kuna Ül 1 ma jooksutasin "npm test", mis siis testib kõik olemasolevad testid kuid Ül 2 ma jooksutasin "npm test -- app.mock.test.js", mis jooksutab ainult seda kindlat faili
